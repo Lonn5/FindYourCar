@@ -1,0 +1,40 @@
+<HTML >
+<HEAD>
+<title>المُحرك المُستدام</title>
+<style>
+A{background-color: SaddleBrown;
+color: #fffaf0;}
+</style>
+</HEAD>
+<BODY style=" background-color: #fffaf0;">
+<div style=" padding: 50px 100px 50px 250px; margin: 150px 300px 200px 300px; border: 5px double SaddleBrown;">
+<body onload="Randomize()">
+<img src="C:\Users\extra\Downloads\الممحرك المستدام.jpg"width="300" height="300"  float: top;">
+<br>
+<br>
+<h1 style="font-style: italic; padding-left:1px ;"> group members: </h1>
+<ul  id="v" >
+<li>لانا حميّد البشري ---  الرقم الجامعي::441002730 </li>
+<li>رانيه زيد العنزي ---  الرقم الجامعي:441009227 </li>
+</ul>
+<br><br>
+
+
+<div style="display: inline-block; margin-right: 12px;margin-left: 60px;">
+<button onclick="location.href='index1.html';">تخطي تسجيل الدخول</button>
+</div>
+<div style="display: inline-block;">
+<button onclick="location.href='firstpage.html';"> تسجيل الدخول</button>
+</div>
+
+
+<script>
+function Randomize(){
+var x = document.getElementById("v");
+for (var i = x.children.length; i >= 0; i--)
+    x.appendChild(x.children[Math.random() * i | 0]);
+}
+</script></div>
+
+</BODY>
+</HTML>
