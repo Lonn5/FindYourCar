@@ -9,6 +9,8 @@ color: #fffaf0;}
 </style>
 </HEAD>
 <BODY style=" background-color: #fffaf0;">
+        <main>
+        <section class="content">
 <div style=" padding: 50px 100px 50px 250px; margin: 150px 300px 200px 300px; border: 5px double SaddleBrown;">
 <body onload="Randomize()">
 <img src="الممحرك المستدام.jpg"width="300" height="300"  float: top;">
@@ -29,7 +31,6 @@ color: #fffaf0;}
 <button onclick="location.href='firstpage.html';"> تسجيل الدخول</button>
 </div>
 
-
 <script>
 function Randomize(){
 var x = document.getElementById("v");
@@ -37,6 +38,7 @@ for (var i = x.children.length; i >= 0; i--)
     x.appendChild(x.children[Math.random() * i | 0]);
 }
 </script></div>
-
+        </section>
+        </main>
 </BODY>
 </HTML>
